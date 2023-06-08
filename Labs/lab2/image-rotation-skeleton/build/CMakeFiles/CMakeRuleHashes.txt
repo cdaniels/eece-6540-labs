@@ -1,0 +1,6 @@
+# Hashes of file build rules.
+4406f79265f460c5ad43ad1527c7b9d6 src/CMakeFiles/fpga
+4406f79265f460c5ad43ad1527c7b9d6 src/CMakeFiles/fpga_emu
+4406f79265f460c5ad43ad1527c7b9d6 src/CMakeFiles/fpga_profile
+4406f79265f460c5ad43ad1527c7b9d6 src/CMakeFiles/report
+ccd57023142ac43a8e3df75c20438e0e src/image-rotation_report.a
