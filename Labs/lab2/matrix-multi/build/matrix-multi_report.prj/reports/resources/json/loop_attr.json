@@ -1,0 +1,81 @@
+{
+  "name":"loop_attributes"
+  , "id":89
+  , "nodes":
+  [
+    {
+      "name":"MMpara_v1"
+      , "id":1
+      , "clk":"No"
+      , "fmax":"240.00"
+      , "type":"kernel"
+      , "children":
+      [
+        {
+          "name":"MMpara_v1.B0"
+          , "id":2
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"10.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+        , {
+          "name":"MMpara_v1.B1"
+          , "id":3
+          , "af":"240.00"
+          , "br":"1"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"n/a"
+          , "ll":"1"
+          , "lt":"252.000000"
+          , "mi":"n/a"
+          , "pl":"No"
+          , "tc":"0"
+          , "tn":"1"
+          , "details":
+          [
+            {
+              "type":"text"
+              , "text":"Hyper-Optimized loop structure: n/a"
+            }
+          ]
+          , "debug":
+          [
+            [
+              {
+                "filename":"/home/u193166/eece-6540-labs/Labs/lab2/matrix-multi/build/src/matrix-multi.cpp"
+                , "line":76
+              }
+            ]
+          ]
+          , "type":"loop"
+        }
+        , {
+          "name":"MMpara_v1.B2"
+          , "id":4
+          , "af":"240.00"
+          , "br":"0"
+          , "ci":"0"
+          , "fo":"Disabled"
+          , "ii":"1"
+          , "ll":"1"
+          , "lt":"257.000000"
+          , "mi":"n/a"
+          , "pl":"Yes"
+          , "tc":"0"
+          , "tn":"1"
+          , "type":"bb"
+        }
+      ]
+    }
+  ]
+}

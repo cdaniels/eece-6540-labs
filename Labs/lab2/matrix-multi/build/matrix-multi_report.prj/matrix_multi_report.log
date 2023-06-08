@@ -1,0 +1,3 @@
+Compiler Command: aoc -o /home/u193166/tmp/matrix-multi-afaf2f-d7aecb.aocr /home/u193166/tmp/icpx-e24038/matrix-multi-e6acf4-3ca209.spv -sycl -rtl -dep-files=/home/u193166/tmp/icpx-e24038/matrix-multi-cabf8d.d -output-report-folder=/home/u193166/eece-6540-labs/Labs/lab2/matrix-multi/build/matrix-multi_report.prj -g -hardware -board=intel_a10gx_pac:pac_a10
+System name: matrix_multi_report
+
