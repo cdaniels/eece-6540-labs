@@ -17,6 +17,8 @@ stdlib.h
 -
 time.h
 -
+sycl/ext/intel/fpga_extensions.hpp
+-
 dpc_common.hpp
 /home/u193166/eece-6540-labs/Labs/lab3/MonteCarloPi/src/dpc_common.hpp
 monte_carlo_pi.hpp
