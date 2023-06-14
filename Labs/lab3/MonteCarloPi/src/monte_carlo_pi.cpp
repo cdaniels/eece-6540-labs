@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#include <sycl/ext/intel/fpga_extensions.hpp>
+//#include <sycl/ext/intel/fpga_extensions.hpp>
 
 // dpc_common.hpp can be found in the dev-utilities include folder.
 // e.g., $ONEAPI_ROOT/dev-utilities/<version>/include/dpc_common.hpp
@@ -18,9 +18,9 @@
 using namespace sycl;
 
 // Number of samples
-constexpr int size_n = 10000;  // Must be greater than size_wg
+constexpr int size_n = 1000000;  // Must be greater than size_wg
 // Size of parallel work groups
-constexpr int size_wg = 32;
+constexpr int size_wg = 512;
 // Number of parallel work groups
 const int num_wg = (int)ceil((float)size_n / (float)size_wg);
 
@@ -70,10 +70,10 @@ float MonteCarloPi(rgb image_plot[]) {
   }
 
   // Set up sycl queue
-  //queue q(default_selector_v);
-  ext::intel::fpga_emulator_selector d_selector;
+  queue q(default_selector_v);
+  //ext::intel::fpga_emulator_selector d_selector;
   //ext::intel::fpga_selector d_selector;
-  queue q(d_selector);
+  //queue q(d_selector);
   std::cout << "\nRunning on "
             << q.get_device().get_info<sycl::info::device::name>() << "\n";
 
